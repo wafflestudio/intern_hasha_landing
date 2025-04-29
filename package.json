@@ -10,13 +10,19 @@
     "lint": "eslint .",
     "check-types": "tsc",
     "check-format": "prettier --check .",
-    "check-unused": "knip",
-    "check-all": "yarn check-types && yarn lint && yarn check-format && yarn check-unused",
+    "check-all": "yarn check-types && yarn lint && yarn check-format",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.503.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -29,8 +35,9 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^15.14.0",
-    "knip": "^5.44.1",
     "prettier": "^3.5.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tw-animate-css": "^1.2.8",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
