@@ -9,5 +9,6 @@
   "singleAttributePerLine": true,
   "arrowParens": "always",
   "endOfLine": "lf",
+  "tailwindFunctions": ["cva", "cn"],
   "plugins": ["prettier-plugin-tailwindcss"]
 }

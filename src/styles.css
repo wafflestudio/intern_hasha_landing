@@ -46,6 +46,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply font-pretendard bg-transparent text-black;
+    @apply font-pretendard bg-transparent text-sm text-black;
   }
 }
