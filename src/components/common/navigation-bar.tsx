@@ -1,3 +1,7 @@
 export const NavigationBar = () => {
-  return <div>인턴하샤</div>;
+  return (
+    <div className="t-0 l-0 fixed flex h-15 w-screen items-center justify-center bg-linear-(--white-gradient)">
+      인턴하샤
+    </div>
+  );
 };
