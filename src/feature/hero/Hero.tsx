@@ -29,17 +29,19 @@ export const Hero = () => {
           </div>
         </div>
         <div className="m-auto">
-          <Button size="lg">지금 바로 출시 알림 신청하기</Button>
+          <Button size="lg">
+            지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
+          </Button>
         </div>
       </div>
       <div className="relative h-90 w-full">
         <img
           src={ASSET_SRC.JOB_CARD}
-          className="absolute top-0 left-0 w-[240px]"
+          className="animate-reverse-bounce absolute top-0 left-0 w-[240px]"
         />
         <img
           src={ASSET_SRC.COFFECHAT_PAGE}
-          className="absolute top-25 right-0 w-[240px]"
+          className="absolute top-25 right-0 w-[240px] animate-bounce"
         />
       </div>
     </div>
