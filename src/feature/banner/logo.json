@@ -1,0 +1,24 @@
+{
+  "logoData": [
+    {
+      "alt": "coupang",
+      "src": "/external_logo/coupang.png"
+    },
+    {
+      "alt": "krafton",
+      "src": "/external_logo/krafton.png"
+    },
+    {
+      "alt": "baemin",
+      "src": "/external_logo/baemin.jpeg"
+    },
+    {
+      "alt": "carrot",
+      "src": "/external_logo/carrot.png"
+    },
+    {
+      "alt": "kakao",
+      "src": "/external_logo/kakao.svg"
+    }
+  ]
+}

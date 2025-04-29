@@ -21,6 +21,7 @@
   --animate-show-left: show-left 500ms ease-out forwards;
   --animate-bounce: bounce 3s ease-in-out infinite;
   --animate-reverse-bounce: reverse-bounce 3s ease-in-out infinite;
+  --breakpoint-xs: 300px;
 
   @keyframes show-left {
     0% {
