@@ -1,5 +1,5 @@
 import { Description } from '@/components/text/description';
-import { HighlighText } from '@/components/text/highlight-text';
+import { HighlightText } from '@/components/text/highlight-text';
 import { MainTitle } from '@/components/text/main-title';
 import { HorizontalCarousel } from '@/feature/vc-introduction/horizontal-carousel';
 import data from '@/feature/vc-introduction/vc.json';
@@ -13,7 +13,7 @@ export const VcIntroduction = () => {
         <div className="flex flex-col gap-6">
           <MainTitle>
             <h3>
-              <HighlighText className="w-43">검증된 스타트업</HighlighText>만
+              <HighlightText className="w-43">검증된 스타트업</HighlightText>만
             </h3>
             <h3>엄선하였습니다.</h3>
           </MainTitle>

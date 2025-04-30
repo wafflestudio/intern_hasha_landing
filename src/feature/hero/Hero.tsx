@@ -1,5 +1,5 @@
 import { Button } from '@/components/common/button';
-import { HighlighText } from '@/components/text/highlight-text';
+import { HighlightText } from '@/components/text/highlight-text';
 import { ASSET_SRC } from '@/entities/assets';
 
 export const Hero = () => {
@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className="flex flex-col gap-4 text-3xl font-bold">
             <h1>이번 여름 인턴</h1>
             <h1>
-              <HighlighText className="w-25">5분만에</HighlighText> 구하세요!
+              <HighlightText className="w-25">5분만에</HighlightText> 구하세요!
             </h1>
           </div>
           <div className="text-gray font-light">

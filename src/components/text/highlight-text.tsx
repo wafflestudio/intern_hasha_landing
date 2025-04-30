@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 import { cn } from '@/shared/lib/utils';
 
-export const HighlighText = ({
+export const HighlightText = ({
   className,
   children,
 }: {
