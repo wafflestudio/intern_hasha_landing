@@ -1,12 +1,13 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import { ContentLayout } from '@/components/common/content-layout';
 import { NavigationBar } from '@/components/common/navigation-bar';
+import { FloatCtaButton } from '@/components/cta/float-cta-button';
 import { Banner } from '@/feature/banner';
 import { CoffeechatIntroduction } from '@/feature/coffeechat-introduction';
 import { Contact } from '@/feature/contact';
 import { Hero } from '@/feature/hero';
 import { VcIntroduction } from '@/feature/vc-introduction/vc-introduction';
-
-import { FloatCtaButton } from './components/cta/float-cta-button';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </ContentLayout>
       </div>
       <FloatCtaButton />
+      <Analytics />
     </div>
   );
 }
