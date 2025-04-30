@@ -29,9 +29,9 @@ const Slider = ({
             : 'animate-scroll-left left-0 justify-start'
         )}
       >
-        {slides.map(({ src, alt }) => (
+        {slides.map(({ src, alt }, index) => (
           <img
-            key={`horizontal-carousel-image-${alt}`}
+            key={`horizontal-carousel-image-${alt}-${index}`}
             src={src}
             alt={alt}
             className="bg-gray h-12 w-12 overflow-hidden rounded-full"
