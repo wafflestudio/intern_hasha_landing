@@ -14,22 +14,22 @@ export const VerticalCarousel = () => {
   }, [logoData.length]);
 
   return (
-    <div className="relative h-50 overflow-hidden">
+    <div className="relative h-45 overflow-hidden">
       <div
         className="flex flex-col gap-5 transition-transform duration-500 ease-in-out"
         style={{
-          transform: `translateY(-${index * 2.75}rem)`,
+          transform: `translateY(-${index * 2.5}rem)`,
         }}
       >
         {[...logoData, ...logoData].map(({ alt, src }, idx) => (
           <div
             key={`carousel-${idx}`}
-            className="flex h-6 items-center justify-center"
+            className="flex h-5 items-center justify-center"
           >
             <img
               alt={alt}
               src={src}
-              className="h-6 object-contain"
+              className="h-5 object-contain"
             />
           </div>
         ))}
