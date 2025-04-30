@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import data from './logo.json';
+import data from '@/feature/banner/logo.json';
 
 export const VerticalCarousel = () => {
   const { logoData } = data;

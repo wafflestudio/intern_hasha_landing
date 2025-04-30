@@ -1,8 +1,7 @@
+import { Button } from '@/components/common/button';
+import { StickyButtonContainer } from '@/components/container/sticky-button-container';
 import { ASSET_SRC } from '@/entities/assets';
 import { GOOGLE_FORM_LINK } from '@/entities/form';
-
-import { Button } from '../common/button';
-import { StickyButtonContainer } from '../container/sticky-button-container';
 
 export const FloatCtaButton = () => {
   return (
