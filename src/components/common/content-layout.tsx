@@ -10,7 +10,7 @@ export const ContentLayout = ({
   className?: string;
 }) => {
   return (
-    <section className={cn('flex snap-start justify-center', className)}>
+    <section className={cn('flex justify-center', className)}>
       <div className="m-auto flex max-w-[402px] flex-col px-4">{children}</div>
     </section>
   );

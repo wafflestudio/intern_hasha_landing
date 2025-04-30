@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="flex flex-col">
       <NavigationBar />
-      <div className="h-screen snap-y snap-mandatory overflow-y-scroll pt-15">
+      <div className="pt-15">
         <ContentLayout>
           <Hero />
         </ContentLayout>
-        <ContentLayout className="snap-center bg-linear-(--pink-gradient)">
+        <ContentLayout className="bg-linear-(--pink-gradient)">
           <Banner />
         </ContentLayout>
         <ContentLayout>
@@ -23,7 +23,7 @@ function App() {
         <ContentLayout>
           <CoffeechatIntroduction />
         </ContentLayout>
-        <ContentLayout className="bg-light-pink snap-align-end">
+        <ContentLayout className="bg-light-pink">
           <Contact />
         </ContentLayout>
       </div>
