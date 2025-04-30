@@ -24,6 +24,9 @@ export const CoffeechatIntroduction = () => {
         </Description>
       </div>
       <div className="flex flex-col gap-6">
+        <p className="font-regular text-center text-sm text-gray-400">
+          비디오 클릭 시 전체 화면으로 확대할 수 있습니다.
+        </p>
         {mockupScreenData.map(({ src, thumbnailSrc, description }, index) => (
           <VideoClip
             key={`mockup-video-${index}`}
