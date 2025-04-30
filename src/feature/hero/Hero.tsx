@@ -32,7 +32,10 @@ export const Hero = () => {
             target="_blank"
             className="flex w-fit items-center gap-1"
           >
-            <Button size="lg">
+            <Button
+              size="lg"
+              className="py-2.5 pr-4.5 pl-7"
+            >
               지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
             </Button>
           </a>
