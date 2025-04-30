@@ -1,5 +1,5 @@
 import { Description } from '@/components/text/description';
-import { HighlighText } from '@/components/text/highlight-text';
+import { HighlightText } from '@/components/text/highlight-text';
 import { MainTitle } from '@/components/text/main-title';
 import data from '@/feature/coffeechat-introduction/screen_clip.json';
 import { VideoClip } from '@/feature/coffeechat-introduction/video-clip';
@@ -12,7 +12,7 @@ export const CoffeechatIntroduction = () => {
         <MainTitle>
           <h3>부담스러운 지원서 대신</h3>
           <h3>
-            <HighlighText className="w-16">커피챗</HighlighText>으로 간단하게
+            <HighlightText className="w-16">커피챗</HighlightText>으로 간단하게
           </h3>
         </MainTitle>
         <Description>
