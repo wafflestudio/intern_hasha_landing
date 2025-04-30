@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className="flex flex-col gap-4 text-3xl font-bold">
             <h1>이번 여름 인턴</h1>
             <h1>
-              <HighlighText className="bottom-[-0.1rem] left-[-0.1rem] h-4 w-25">
+              <HighlighText className="w-25">
                 5분만에
               </HighlighText>{' '}
               구하세요!

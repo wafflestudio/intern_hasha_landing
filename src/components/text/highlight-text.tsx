@@ -14,7 +14,7 @@ export const HighlighText = ({
       <span className="text-red">{children}</span>
       <div
         className={cn(
-          'bg-red/30 animate-show-left absolute -skew-x-10',
+          'bg-red/30 animate-show-left absolute bottom-[-0.1rem] left-[-0.1rem] h-4 -skew-x-10',
           className
         )}
       ></div>

@@ -1,0 +1,94 @@
+{
+  "vcData": [
+    {
+      "name": "카카오벤처스",
+      "src": "external_logo/kakao_ventures.png",
+      "alt": "kakao_ventures",
+      "descriptions": [
+        "누적 패밀리(투자사) 수 250개 이상",
+        "운용자산 3,900억원 이상 보유",
+        "2024년 선호 기업주도형 벤처캐피탈 1위 선정"
+      ]
+    },
+    {
+      "name": "본엔젤스벤처파트너스",
+      "src": "external_logo/bon_angels.png",
+      "alt": "bon_angels_venture_partners",
+      "descriptions": [
+        "5개 유니콘 기업(배달의 민족, 크래프톤 등) 배출",
+        "TIPS 운영사 선정",
+        "국내 VC 중 자기자본 1위 (5,2827억 원)"
+      ]
+    },
+    {
+      "name": "매시업벤처스",
+      "src": "external_logo/mashup.png",
+      "alt": "mashup_ventures",
+      "descriptions": [
+        "2024년 총 75억원 투자, 연간 투자규모 최대치 경신",
+        "누적 후속 투자 유치 금액 약 2조 4천억원",
+        "소프트웨어 중심의 초기 스타트업 발굴에 집중"
+      ]
+    },
+    {
+      "name": "사제파트너스",
+      "src": "external_logo/sazze.png",
+      "alt": "sazze_partners",
+      "descriptions": [
+        "4년간 60개 스타트업에 78억원 투자",
+        "우수한 투자 성과 및 실리콘밸리 한인 창업자 대상 영향력 확대",
+        "1차 펀드 500억, 2차 펀드 1,000억 원 조기 달성"
+      ]
+    }
+  ],
+  "sliders": [
+    [
+      {
+        "src": "external_logo/watcha.png",
+        "alt": "watcha"
+      },
+      {
+        "src": "external_logo/baemin_circle.png",
+        "alt": "baemin"
+      },
+      {
+        "src": "external_logo/krafton_circle.png",
+        "alt": "krafton"
+      },
+      {
+        "src": "external_logo/neptune.png",
+        "alt": "neptune"
+      },
+      {
+        "src": "external_logo/lunit.png",
+        "alt": "lunit"
+      }
+    ],
+    [
+      {
+        "src": "external_logo/revelion.png",
+        "alt": "revelion"
+      },
+      {
+        "src": "external_logo/bucket_place.png",
+        "alt": "bucket_place"
+      },
+      {
+        "src": "external_logo/kcd.png",
+        "alt": "KCD"
+      },
+      {
+        "src": "external_logo/noom.png",
+        "alt": "noom"
+      },
+      {
+        "src": "external_logo/nudge.png",
+        "alt": "nudge_healthcare"
+      },
+      {
+        "src": "external_logo/sift_up.png",
+        "alt": "sift_up"
+      }
+    ]
+  ]
+}

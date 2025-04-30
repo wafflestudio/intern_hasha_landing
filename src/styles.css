@@ -21,6 +21,8 @@
   --animate-show-left: show-left 500ms ease-out forwards;
   --animate-bounce: bounce 3s ease-in-out infinite;
   --animate-reverse-bounce: reverse-bounce 3s ease-in-out infinite;
+  --animate-scroll-left: scroll-left 15s linear infinite;
+  --animate-scroll-right: scroll-right 15s linear infinite;
   --breakpoint-xs: 300px;
 
   @keyframes show-left {
@@ -49,6 +51,24 @@
     }
     50% {
       transform: translateY(-2%);
+    }
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-21rem);
+    }
+  }
+
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(-17.5rem);
+    }
+    100% {
+      transform: translateX(0);
     }
   }
 }
