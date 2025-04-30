@@ -10,7 +10,7 @@
     },
     {
       "alt": "baemin",
-      "src": "/external_logo/baemin.jpeg"
+      "src": "/external_logo/baemin.png"
     },
     {
       "alt": "carrot",
@@ -18,7 +18,7 @@
     },
     {
       "alt": "kakao",
-      "src": "/external_logo/kakao.svg"
+      "src": "/external_logo/kakao.png"
     }
   ]
 }
