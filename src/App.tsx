@@ -4,7 +4,7 @@ import { Banner } from '@/feature/banner';
 import { CoffeechatIntroduction } from '@/feature/coffeechat-introduction';
 import { Contact } from '@/feature/contact';
 import { Hero } from '@/feature/hero';
-import { VcIntroduction } from '@/feature/vc-introduction/VcIntroduction';
+import { VcIntroduction } from '@/feature/vc-introduction/vc-introduction';
 
 function App() {
   return (

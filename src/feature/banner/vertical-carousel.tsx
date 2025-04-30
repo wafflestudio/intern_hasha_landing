@@ -21,9 +21,9 @@ export const VerticalCarousel = () => {
           transform: `translateY(-${index * 2.75}rem)`,
         }}
       >
-        {[...logoData, ...logoData].map(({ alt, src }, index) => (
+        {[...logoData, ...logoData].map(({ alt, src }, idx) => (
           <div
-            key={`carousel-${index}`}
+            key={`carousel-${idx}`}
             className="flex h-6 items-center justify-center"
           >
             <img
