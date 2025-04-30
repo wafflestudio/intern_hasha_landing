@@ -26,11 +26,11 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="m-auto">
+        <div className="mx-auto">
           <a
             href={GOOGLE_FORM_LINK}
             target="_blank"
-            className="flex items-center gap-1"
+            className="flex w-fit items-center gap-1"
           >
             <Button size="lg">
               지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />

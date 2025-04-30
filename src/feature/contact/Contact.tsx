@@ -26,7 +26,7 @@ export const Contact = () => {
             target="_blank"
             className="flex items-center gap-1"
           >
-            <Button>지금 바로 출시 알림 신청하기</Button>
+            <Button size="lg">지금 바로 출시 알림 신청하기</Button>
           </a>
         </div>
       </section>

@@ -6,6 +6,8 @@ import { Contact } from '@/feature/contact';
 import { Hero } from '@/feature/hero';
 import { VcIntroduction } from '@/feature/vc-introduction/vc-introduction';
 
+import { FloatCtaButton } from './components/cta/float-cta-button';
+
 function App() {
   return (
     <div className="flex flex-col">
@@ -27,6 +29,7 @@ function App() {
           <Contact />
         </ContentLayout>
       </div>
+      <FloatCtaButton />
     </div>
   );
 }
