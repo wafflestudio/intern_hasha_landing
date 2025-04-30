@@ -23,15 +23,46 @@ export const VideoClip = ({
     }
   }, []);
 
+  const handleVideoClick = () => {
+    const video = videoRef.current;
+    if (video === null) {
+      return;
+    }
+
+    if (video.requestFullscreen !== null) {
+      video.requestFullscreen().catch(() => {});
+    }
+    // Safari 대응
+    else if ('webkitRequestFullscreen' in video) {
+      (
+        video as HTMLVideoElement & {
+          webkitRequestFullscreen: () => Promise<void>;
+        }
+      )
+        .webkitRequestFullscreen()
+        .catch(() => {});
+    }
+    // IE 대응
+    else if ('msRequestFullscreen' in video) {
+      (
+        video as HTMLVideoElement & {
+          msRequestFullscreen: () => Promise<void>;
+        }
+      )
+        .msRequestFullscreen()
+        .catch(() => {});
+    }
+  };
+
   return (
     <div className="flex flex-col gap-4">
       <video
         ref={videoRef}
         poster={thumbnailSrc}
-        controls
         muted
         loop
-        className="shadow-lg"
+        className="cursor-pointer shadow-lg"
+        onClick={handleVideoClick}
       >
         <source
           src={src}
