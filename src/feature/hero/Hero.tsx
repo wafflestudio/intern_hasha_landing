@@ -1,6 +1,7 @@
 import { Button } from '@/components/common/button';
 import { HighlightText } from '@/components/text/highlight-text';
 import { ASSET_SRC } from '@/entities/assets';
+import { GOOGLE_FORM_LINK } from '@/entities/form';
 
 export const Hero = () => {
   return (
@@ -26,9 +27,15 @@ export const Hero = () => {
           </div>
         </div>
         <div className="m-auto">
-          <Button size="lg">
-            지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
-          </Button>
+          <a
+            href={GOOGLE_FORM_LINK}
+            target="_blank"
+            className="flex items-center gap-1"
+          >
+            <Button size="lg">
+              지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
+            </Button>
+          </a>
         </div>
       </div>
       <div className="relative h-90 w-full">

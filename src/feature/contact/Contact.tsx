@@ -2,11 +2,11 @@ import { Button } from '@/components/common/button';
 import { Description } from '@/components/text/description';
 import { HighlightText } from '@/components/text/highlight-text';
 import { MainTitle } from '@/components/text/main-title';
-import { ASSET_SRC } from '@/entities/assets';
+import { GOOGLE_FORM_LINK } from '@/entities/form';
 
 export const Contact = () => {
   return (
-    <div className="py-15">
+    <div className="mx-6 py-15">
       <section className="flex h-80 flex-col justify-between rounded-xl bg-white px-6 py-8 shadow-md">
         <div className="flex flex-col gap-4">
           <MainTitle className="text-left">
@@ -21,9 +21,13 @@ export const Contact = () => {
           </Description>
         </div>
         <div className="mx-auto">
-          <Button>
-            지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
-          </Button>
+          <a
+            href={GOOGLE_FORM_LINK}
+            target="_blank"
+            className="flex items-center gap-1"
+          >
+            <Button>지금 바로 출시 알림 신청하기</Button>
+          </a>
         </div>
       </section>
     </div>
