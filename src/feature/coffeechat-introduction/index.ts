@@ -1,1 +1,1 @@
-export { CoffeechatIntroduction } from './CoffeechatIntroduction';
+export { CoffeechatIntroduction } from './coffeechat-introduction';
