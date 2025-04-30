@@ -36,7 +36,7 @@
       "alt": "sazze_partners",
       "descriptions": [
         "4년간 60개 스타트업에 78억원 투자",
-        "우수한 투자 성과 및 실리콘밸리 한인 창업자 대상 영향력 확대",
+        "실리콘밸리 한인 창업자 대상 영향력 확대",
         "1차 펀드 500억, 2차 펀드 1,000억 원 조기 달성"
       ]
     }
@@ -44,49 +44,49 @@
   "sliders": [
     [
       {
-        "src": "external_logo/watcha.png",
+        "src": "external_logo/watcha.jpg",
         "alt": "watcha"
       },
       {
-        "src": "external_logo/baemin_circle.png",
+        "src": "external_logo/baemin_circle.jpg",
         "alt": "baemin"
       },
       {
-        "src": "external_logo/krafton_circle.png",
+        "src": "external_logo/krafton_circle.jpg",
         "alt": "krafton"
       },
       {
-        "src": "external_logo/neptune.png",
+        "src": "external_logo/neptune.jpg",
         "alt": "neptune"
       },
       {
-        "src": "external_logo/lunit.png",
+        "src": "external_logo/lunit.jpg",
         "alt": "lunit"
       }
     ],
     [
       {
-        "src": "external_logo/revelion.png",
+        "src": "external_logo/revelion.jpg",
         "alt": "revelion"
       },
       {
-        "src": "external_logo/bucket_place.png",
+        "src": "external_logo/bucket_place.jpg",
         "alt": "bucket_place"
       },
       {
-        "src": "external_logo/kcd.png",
+        "src": "external_logo/kcd.jpg",
         "alt": "KCD"
       },
       {
-        "src": "external_logo/noom.png",
+        "src": "external_logo/noom.jpg",
         "alt": "noom"
       },
       {
-        "src": "external_logo/nudge.png",
+        "src": "external_logo/nudge.jpg",
         "alt": "nudge_healthcare"
       },
       {
-        "src": "external_logo/sift_up.png",
+        "src": "external_logo/sift_up.jpg",
         "alt": "sift_up"
       }
     ]

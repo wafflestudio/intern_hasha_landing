@@ -23,10 +23,10 @@ const Slider = ({
     <div className="relative flex h-12 w-full overflow-hidden">
       <div
         className={cn(
-          'absolute top-0 flex h-12 shrink-0 gap-4',
+          'absolute top-0 flex h-12 w-200 shrink-0 gap-4',
           direction === 'RIGHT'
-            ? 'animate-scroll-right left-0'
-            : 'animate-scroll-left left-0'
+            ? 'animate-scroll-right right-0 justify-end'
+            : 'animate-scroll-left left-0 justify-start'
         )}
       >
         {slides.map(({ src, alt }) => (

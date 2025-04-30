@@ -15,7 +15,7 @@ export const VcDescription = ({
         <img
           src={src}
           alt={alt}
-          className="h-9"
+          className="w-20"
         />
         <span className="text-lg font-semibold">{name}</span>
       </div>

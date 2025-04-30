@@ -59,16 +59,16 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-21rem);
+      transform: translateX(-24rem);
     }
   }
 
   @keyframes scroll-right {
     0% {
-      transform: translateX(-17.5rem);
+      transform: translateX(0);
     }
     100% {
-      transform: translateX(0);
+      transform: translateX(20rem);
     }
   }
 }
