@@ -9,8 +9,8 @@ export const StickyButtonContainer = ({
   children: ReactNode;
 }) => {
   const [isSticky, setIsSticky] = useState(false);
-  const topThreshold = 500; // 스크롤 임계값
-  const bottomThreshold = 2700;
+  const topThreshold = 500;
+  const bottomThreshold = 2500;
 
   const handleScroll = () => {
     const scrollY = window.scrollY || window.pageYOffset;
@@ -29,13 +29,11 @@ export const StickyButtonContainer = ({
   return (
     <div
       className={cn(
-        'fixed bottom-0 left-0 z-50 w-full p-8 shadow-md transition-opacity duration-300',
+        'fixed bottom-0 left-0 z-50 w-full py-8 shadow-md transition-opacity duration-300',
         isSticky ? 'opacity-100' : 'opacity-0'
       )}
     >
-      <div className={cn('flex justify-center', isSticky ? 'container' : '')}>
-        {children}
-      </div>
+      <div className="flex justify-center">{children}</div>
     </div>
   );
 };

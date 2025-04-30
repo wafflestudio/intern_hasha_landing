@@ -14,7 +14,7 @@ export const FloatCtaButton = () => {
       >
         <Button
           size="lg"
-          className="shadow-lg"
+          className="py-2.5 pr-4.5 pl-7 shadow-lg"
         >
           지금 바로 출시 알림 신청하기 <img src={ASSET_SRC.ARROW} />
         </Button>
